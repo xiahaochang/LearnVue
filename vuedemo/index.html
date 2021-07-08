@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/static/common/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="src/static/common/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="src/static/common/js/bootstrap.bundle.min.js"></script>
+    <script src="src/static/common/js/jquery.min.js"></script>
+    <script src="src/static/common/js/vue.js"></script>
+
+
+
+    <div class="btn-group-vertical m-5" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-link" onclick="window.location.href ='/src/demo1.html'">jump_to_page_demo_1</button>
+        <button type="button" class="btn btn-link" onclick="toDemo2()">jump_to_page_demo_2</button>
+
+        <a href="/src/demo1.html">
+            <button type="button" class="btn btn-link">jump_to_page_demo_1</button>        
+        </a>
+
+        <a href="/src/demo2.html">
+            <button type="button" class="btn btn-link">jump_to_page_demo_2</button>        
+        </a>
+
+        <a href="/src/demo3.html">
+            <button type="button" class="btn btn-link">jump_to_page_demo_3</button>        
+        </a>
+
+        <a href="/src/demo4.html">
+            <button type="button" class="btn btn-link">jump_to_page_demo_4</button>        
+        </a>
+    </div>
+
+</body>
+    <script>
+        function toDemo2() {
+            window.location.href = '/src/demo2.html';
+        }
+    </script>
+
+</html>
